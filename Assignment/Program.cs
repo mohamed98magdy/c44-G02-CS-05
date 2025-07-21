@@ -28,11 +28,11 @@ namespace Assignment
             #region Q2
 
             //const int size = 3; // for simplicity but we can take all information from user
-            
+
             //int[] arr01 =  [3,1,2];  
-          
+
             //int[] arr02 = [6, 4, 5];
-            
+
             //int[] MergedArray = new int [2 * size] ;
             //for (int i = 0; i < size; i++)
             //{
@@ -73,6 +73,23 @@ namespace Assignment
 
 
             #region Q4
+            //int[] numbers = [1, 2, 5, 4, 3, 0, 6];
+
+            //int min = numbers[0];
+            //int max = numbers[0];
+
+            //for (int i = 1; i < numbers.Length; i++)
+            //{
+            //    if (numbers[i] > max)
+            //        max = numbers[i];
+
+            //    if (numbers[i] < min)
+            //        min = numbers[i];
+            //}
+
+            //Console.WriteLine("Minimum element: " + min);
+            //Console.WriteLine("Maximum element: " + max);
+            
 
             #endregion
 
