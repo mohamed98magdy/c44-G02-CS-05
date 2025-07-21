@@ -118,7 +118,16 @@
 
             #endregion
 
+            #region Jagged Array
 
+            //int[][] JaggedArray = new int[3][];
+            //JaggedArray[0] = new int[4]; //Default value 0,0,0,0
+            //JaggedArray[1] = new int[] {10,2,0,3};
+            //JaggedArray[2] = [100, 200, 300];
+
+
+
+            #endregion
 
 
 
