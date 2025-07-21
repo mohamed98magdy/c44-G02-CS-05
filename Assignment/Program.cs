@@ -55,6 +55,19 @@ namespace Assignment
             #endregion
 
             #region Q3
+            // Assume numbers from 0 to 5 for simplicity
+
+            //int[] numbers = {0, 1, 1, 3, 4, 3,5,2,2,3,5,4,5 };
+            //int[] frequency = new int [5+1] ;
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    frequency[numbers[i]]++;
+            //}
+
+            //for (int i = 0; i < frequency.Length; i++)
+            //{
+            //    Console.WriteLine($"Number {i} occurs {frequency[i]} times.");
+            //}
 
             #endregion
 
