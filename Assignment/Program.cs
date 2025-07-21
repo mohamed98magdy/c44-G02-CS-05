@@ -122,24 +122,62 @@ namespace Assignment
 
             #endregion
 
-           
-            #region Q6
+
+            #region Q6,Q7
+
+            //Console.Write("Enter number of elements: ");
+            //int n;
+            //while (!int.TryParse(Console.ReadLine(), out n) || n < 2) //for distance>0
+            //{
+            //    Console.Write("Enter a valid number (>= 2): ");
+            //}
+
+            //int[] arr = new int[n];
+
+          
+            //for (int i = 0; i < n; i++)
+            //{
+            //    Console.Write($"Enter element {i + 1}: ");
+            //    while (!int.TryParse(Console.ReadLine(), out arr[i]))
+            //    {
+            //        Console.Write("Invalid input. Enter an integer: ");
+            //    }
+            //}
+
+            //int maxDistance = 1;
+
+       
+            //for (int i = 0; i < n - 1; i++)
+            //{
+            //    for (int j = n - 1; j > i; j--)
+            //    {
+            //        if (arr[i] == arr[j])
+            //        {
+            //            int distance = j - i - 1; 
+            //            if (distance > maxDistance)
+            //            {
+            //                maxDistance = distance;
+            //            }
+            //            break; 
+            //        }
+            //    }
+            //}
+
+            //Console.WriteLine("Longest distance between two equal elements: " + maxDistance);
 
             #endregion
 
-
-            #region Q7
-
-            #endregion
 
 
             #region Q8
 
             #endregion
 
+
             #region Q9
 
             #endregion
+
 
             #region Q10
 
