@@ -134,7 +134,7 @@ namespace Assignment
 
             //int[] arr = new int[n];
 
-          
+
             //for (int i = 0; i < n; i++)
             //{
             //    Console.Write($"Enter element {i + 1}: ");
@@ -146,7 +146,7 @@ namespace Assignment
 
             //int maxDistance = 1;
 
-       
+
             //for (int i = 0; i < n - 1; i++)
             //{
             //    for (int j = n - 1; j > i; j--)
@@ -170,7 +170,12 @@ namespace Assignment
 
 
             #region Q8
+           
+            //Console.Write("Enter a sentence: ");
+            //string? input = Console.ReadLine();
 
+            //Console.WriteLine(string.Join(" ", input?.Split(' ').Reverse()));
+            
             #endregion
 
 
