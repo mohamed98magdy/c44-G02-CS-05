@@ -129,7 +129,41 @@
 
             #endregion
 
+            #region Array Methods
 
+            #region Class Member Mthods
+
+            //int[] numbers = { 5, 3, 4, 1, 2, 4 };
+
+            //Array.Sort(numbers);
+            //Array.Reverse(numbers);
+            //Array.Clear(numbers);
+            //Array.Clear(numbers, 2, 3);
+            //Console.WriteLine(Array.IndexOf(numbers, 4));
+            //Console.WriteLine(Array.LastIndexOf(numbers, 5));
+            //Array.Resize(ref numbers, 10);
+
+            //int[] arr01 = {1,2,3,4,5};
+            //int[] arr02 = new int[4];
+            //Array.Copy(arr01, arr02, 3);
+            //Console.WriteLine(arr02[0]);
+
+            //Array.ConstrainedCopy(arr01, 1, arr02, 0, 3);
+            //Console.WriteLine(arr02[0]);
+
+            #endregion
+
+            #region Object Member Mthods
+
+            //int[] numbers = { 1, 2, 3, 4, 5 };
+
+            //Console.WriteLine(numbers.Length);
+            //Console.WriteLine(numbers.GetLongLength(0));
+            //numbers.SetValue(2003, 0);
+
+            #endregion
+
+            #endregion
 
 
 
