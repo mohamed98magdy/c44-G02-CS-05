@@ -89,16 +89,40 @@ namespace Assignment
 
             //Console.WriteLine("Minimum element: " + min);
             //Console.WriteLine("Maximum element: " + max);
-            
+
 
             #endregion
 
 
             #region Q5
 
+
+            //int[] numbers = [2, 5, 6, 4, 1, 3];
+
+            //int max1 = int.MinValue;
+            //int max2 = int.MinValue;
+
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    if (numbers[i] >= max1)
+            //    {
+            //        max2 = max1;
+            //        max1 = numbers[i];
+            //    }
+            //    else if (numbers[i] > max2 )
+            //    {
+            //        max2 = numbers[i];
+            //    }
+
+
+            //}
+
+            //Console.WriteLine($"The Second largest numbers is {max2}");
+
+
             #endregion
 
-
+           
             #region Q6
 
             #endregion
