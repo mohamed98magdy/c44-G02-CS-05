@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection.Metadata;
 
 namespace Assignment
 {
@@ -238,24 +239,46 @@ namespace Assignment
 
             #region Q10
 
-           //const int n = 5;
-           // int[]arr = new int[n] {1,2,3,4,5};
+            //const int n = 5;
+            // int[]arr = new int[n] {1,2,3,4,5};
 
-           // Console.WriteLine("\nArray in reverse order:");
-           // for (int i = n - 1; i >= 0; i--)
-           // {
-           //     Console.Write(arr[i] + " ");
-           // }
-           // Console.WriteLine();
-           
-            #endregion
-
+            // Console.WriteLine("\nArray in reverse order:");
+            // for (int i = n - 1; i >= 0; i--)
+            // {
+            //     Console.Write(arr[i] + " ");
+            // }
+            // Console.WriteLine();
 
             #endregion
 
 
+            #endregion
+
+            #region Functions [Methods]
+
+            #region Q1
+
+            //[Value type parameter]
+            //1) passing by value:
+
+            //-- You create a copy of instance  in a stack .
+            //-- When you modify an instance, You modify the copy instance you created not the instance value itself .
+
+            //1) passing by Reference:
+
+            //-- You don't create  a copy of instance  in a stack but, You refer to the same data itself.
+            //-- When you modify an instance, You modify the instance value itself .
+
+            #endregion
 
 
+
+
+
+
+            #endregion
+
+            
 
 
 
