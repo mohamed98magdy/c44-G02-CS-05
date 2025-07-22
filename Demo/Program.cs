@@ -59,14 +59,14 @@
         //}
 
 
-        public static int SumArray( ref int[] Arr)
-        {
-            int Sum = 0;
-            Arr = [10, 20, 30, 40];
-            for (int i = 0; i < Arr.Length; i++)
-                Sum += Arr[i];
-            return Sum;
-        }
+        //public static int SumArray( ref int[] Arr)
+        //{
+        //    int Sum = 0;
+        //    Arr = [10, 20, 30, 40];
+        //    for (int i = 0; i < Arr.Length; i++)
+        //        Sum += Arr[i];
+        //    return Sum;
+        //}
 
 
         //public static int SumArray(ref int[] Arr)
@@ -86,7 +86,18 @@
 
        // }
 
+        //public static void Sum (params int[]arr)
+        //{
+        //    int sum =0;
 
+        //    for (int i = 0; i < arr.Length; i++)
+        //    {
+        //        sum += arr[i];
+                
+        //    }
+
+        //    Console.WriteLine ($"sum is qual to => {sum}");
+        //}
 
 
 
@@ -361,24 +372,27 @@
             #endregion
 
             #region Out Parameter
-             
+
             //int summition, substraction;
             //SumSub(10, 20, out summition, out substraction);
-           
+
             //Console.WriteLine(summition +" "+ substraction);
 
             #endregion
 
+            #region Params Parameter
+            
+            //int first = 10;
+            //int second = 20;
+            //int third = 30;
 
-
-
+            //Sum(first,second,third,40);
+            
+            
             #endregion
 
 
-
-
-
-
+            #endregion
 
         }
     }
