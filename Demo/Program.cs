@@ -43,21 +43,43 @@
         //public static int SumArray(int[] Arr)
         //{
         //    int Sum = 0;
-        //    Arr[0] = 100; 
+        //    Arr[0] = 100;
+        //    for (int i = 0; i < Arr.Length; i++)
+        //        Sum += Arr[i];
+        //    return Sum;
+        //}
+
+        //public static int SumArray(int[] Arr)
+        //{
+        //    int Sum = 0;
+        //    Arr = [10, 20, 30, 40];
         //    for (int i = 0; i < Arr.Length; i++)
         //        Sum += Arr[i];
         //    return Sum;
         //}
 
 
-        public static int SumArray(ref int[] Arr)
+        public static int SumArray( ref int[] Arr)
         {
             int Sum = 0;
-            Arr[0] = 100;
+            Arr = [10, 20, 30, 40];
             for (int i = 0; i < Arr.Length; i++)
                 Sum += Arr[i];
             return Sum;
         }
+
+
+        //public static int SumArray(ref int[] Arr)
+        //{
+        //    int Sum = 0;
+        //    Arr[0] = 100;
+        //    for (int i = 0; i < Arr.Length; i++)
+        //        Sum += Arr[i];
+        //    return Sum;
+        //}
+
+       
+
 
 
 
@@ -296,7 +318,7 @@
             #endregion
 
             #region Passing by Reference
-            
+
             //int[] Numbers = { 1, 2, 3 };
             //int result = SumArray(ref Numbers); //passing by Reference
             //Console.WriteLine(result); //105
@@ -307,7 +329,30 @@
 
             #endregion
 
+           #region Reference Type [Another Example]
 
+            #region Passing By Value 
+
+            //int[] numbers = [1, 2, 3];
+            //int result = SumArray(numbers); //passing by value
+            //Console.WriteLine(result); //100
+            //Console.WriteLine(numbers[0]); //1
+
+            #endregion
+
+
+            #region Passin By Reference
+            //int[] numbers = [1, 2, 3];
+            //int result = SumArray(ref numbers); //passing by Refernce
+            //Console.WriteLine(result); //100
+            //Console.WriteLine(numbers[0]); //100
+
+            #endregion
+
+
+
+
+            #endregion
 
 
 
