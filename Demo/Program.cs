@@ -11,16 +11,38 @@
         //1A) Class member methods (Static Methods)
         //1B) Object member methods (Non static methods)
 
-        #region Mehod ProtoType
+        #region Methods
+        
+        
 
-       //public static void PrintShape(string pattern,int count)
-       // {
-       //     for (int i = 0; i < count; i++)
-       //     {
-       //         Console.WriteLine(pattern);
-       //     }
+        //public static void PrintShape(string pattern,int count)
+        // {
+        //     for (int i = 0; i < count; i++)
+        //     {
+        //         Console.WriteLine(pattern);
+        //     }
 
-       // }
+        // }
+
+        //public static void Swap(int x,int y)
+        //{
+        //    int temp = x;
+        //    x = y;
+        //    y = temp;
+        //}
+
+        //public static void Swap(ref int x,ref int y)
+        //{
+        //    int temp = x;
+        //    x = y;
+        //    y = temp;
+
+
+        //}
+
+
+
+
 
         #endregion
 
@@ -206,8 +228,43 @@
 
             #region Functions
 
-            //PrintShape("*", 5);
 
+
+            #region  Method ProtoType
+            //PrintShape("*", 5);
+            #endregion
+
+            #region Function Parameters [Value Type]
+
+
+            #region Passing By Value
+
+            //int x = 5, y = 10;
+            //Console.WriteLine("Before Swapping Process");
+            //Console.WriteLine(x + " " + y);
+
+            //Swap(x, y); //Passing By Value
+
+            //Console.WriteLine("After Swapping Process");
+            //Console.WriteLine(x + " " + y);
+
+            #endregion
+
+            #region Passing By Ref
+
+            //int x = 5, y = 10;
+            //Console.WriteLine("Before Swapping Process");
+            //Console.WriteLine(x + " " + y);
+
+            //Swap(ref x,ref  y); //Passing By ref
+
+            //Console.WriteLine("After Swapping Process");
+            //Console.WriteLine(x + " " + y);
+
+            #endregion
+
+
+            #endregion
 
 
 
