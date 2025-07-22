@@ -1,7 +1,31 @@
 ﻿namespace Demo
 {
+    // 1- Class
+    // 2- Struct
+    // 3- Interface 
+    // 4- Enum
+
     internal class Program
     {
+        //1- Methods
+        //1A) Class member methods (Static Methods)
+        //1B) Object member methods (Non static methods)
+
+        #region Mehod ProtoType
+
+       //public static void PrintShape(string pattern,int count)
+       // {
+       //     for (int i = 0; i < count; i++)
+       //     {
+       //         Console.WriteLine(pattern);
+       //     }
+
+       // }
+
+        #endregion
+
+
+
         static void Main(string[] args)
         {
             #region Arrays
@@ -178,6 +202,30 @@
 
 
             #endregion
+
+
+            #region Functions
+
+            //PrintShape("*", 5);
+
+
+
+
+
+
+
+
+
+
+
+            #endregion
+
+
+
+
+
+
+
         }
     }
 }
