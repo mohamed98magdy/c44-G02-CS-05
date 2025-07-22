@@ -83,21 +83,78 @@ namespace Assignment
 
         #region Q5
 
-       //public static bool IsPrime(int number)
-       // {
-       //     if (number <= 1)
-       //         return false;
+        //public static bool IsPrime(int number)
+        // {
+        //     if (number <= 1)
+        //         return false;
 
-       //     for (int i = 2; i <= Math.Sqrt(number); i++)
-       //     {
-       //         if (number % i == 0)
-       //             return false;
-       //     }
+        //     for (int i = 2; i <= Math.Sqrt(number); i++)
+        //     {
+        //         if (number % i == 0)
+        //             return false;
+        //     }
 
-       //     return true;
-       // }
+        //     return true;
+        // }
 
         #endregion
+
+        #region Q6
+
+        //public static void MinMaxArray(int[] arr, ref int min, ref int max)
+        // {
+        //     if (arr.Length == 0)
+        //         return;
+
+        //     min = arr[0];
+        //     max = arr[0];
+
+        //     foreach (int val in arr)
+        //     {
+        //         if (val < min) min = val;
+        //         if (val > max) max = val;
+        //     }
+        // }
+
+
+        #endregion
+
+
+        #region Q7
+
+        //public  static int Factorial(int n)
+        //  {
+        //      //  we can use long data type for more safe
+
+        //      int result = 1;
+        //      for (int i = 2; i <= n; i++)
+        //      {
+        //          result *= i;
+        //      }
+        //      return result;
+        //  }
+
+
+        #endregion
+
+        #region Q8
+        //public static string ChangeChar(string input, int index, char newChar)
+        //{
+        //    string result = "";
+
+        //    for (int i = 0; i < input.Length; i++)
+        //    {
+        //        if (i == index)
+        //            result += newChar;   // Replace the character
+        //        else
+        //            result += input[i];  // Keep the original character
+        //    }
+
+        //    return result;
+        //}
+
+        #endregion
+
 
         #endregion
 
@@ -472,7 +529,31 @@ namespace Assignment
 
             #endregion
 
+            #region Q6
 
+            //int[] numbers = { 5, 2, 9, 1, 7 };
+            //int min = 0, max = 0;
+            //MinMaxArray(numbers, ref min, ref max);
+            //Console.WriteLine($"Min: {min}, Max: {max}");
+
+
+
+            #endregion
+
+            #region Q7
+
+            //Console.WriteLine(Factorial(5));  // 120
+
+            #endregion
+
+            #region Q8
+
+            //string word = "Route";
+            //string changed = ChangeChar(word, 1, 'a');  // Change 'o' to 'a'
+            //Console.WriteLine(changed);  // Raute
+
+
+            #endregion
 
             #endregion
 
