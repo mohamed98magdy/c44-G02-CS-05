@@ -182,7 +182,7 @@ namespace Assignment
             #region Q9
             //int rows, cols;
 
-            
+
             //Console.Write("Enter number of rows: ");
             //while (!int.TryParse(Console.ReadLine(), out rows) || rows <= 0)
             //{
@@ -198,7 +198,7 @@ namespace Assignment
             //int[,] firstArray = new int[rows, cols];
             //int[,] secondArray = new int[rows, cols];
 
-            
+
             //Console.WriteLine("Enter values for the first array:");
             //for (int i = 0; i < rows; i++)
             //{
@@ -212,7 +212,7 @@ namespace Assignment
             //    }
             //}
 
-  
+
             //for (int i = 0; i < rows; i++)
             //{
             //    for (int j = 0; j < cols; j++)
@@ -221,7 +221,7 @@ namespace Assignment
             //    }
             //}
 
-            
+
             //Console.WriteLine("\nSecond array ");
             //for (int i = 0; i < rows; i++)
             //{
@@ -238,6 +238,16 @@ namespace Assignment
 
             #region Q10
 
+           //const int n = 5;
+           // int[]arr = new int[n] {1,2,3,4,5};
+
+           // Console.WriteLine("\nArray in reverse order:");
+           // for (int i = n - 1; i >= 0; i--)
+           // {
+           //     Console.Write(arr[i] + " ");
+           // }
+           // Console.WriteLine();
+           
             #endregion
 
 
