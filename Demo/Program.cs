@@ -78,7 +78,13 @@
         //    return Sum;
         //}
 
-       
+       //public static void SumSub (int x,int y,out int sum,out int sub)
+       // {
+
+       //     sum = x + y;
+       //     sub = x - y;
+
+       // }
 
 
 
@@ -329,7 +335,7 @@
 
             #endregion
 
-           #region Reference Type [Another Example]
+            #region Reference Type [Another Example]
 
             #region Passing By Value 
 
@@ -354,7 +360,14 @@
 
             #endregion
 
+            #region Out Parameter
+             
+            //int summition, substraction;
+            //SumSub(10, 20, out summition, out substraction);
+           
+            //Console.WriteLine(summition +" "+ substraction);
 
+            #endregion
 
 
 
