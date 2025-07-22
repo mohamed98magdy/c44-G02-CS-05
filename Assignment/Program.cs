@@ -5,6 +5,59 @@ namespace Assignment
 {
     internal class Program
     {
+
+        #region Functions Methods
+
+        #region Q1
+
+        //public static void swap(int x , int y)
+        //{
+        //    int Temp = x;
+        //    x = y;
+        //    y = Temp;
+
+        //}
+
+
+        //public static void swap(ref int x,ref int y)
+        //{
+        //    int Temp = x;
+        //    x = y;
+        //    y = Temp;
+
+        //}
+
+
+
+
+
+        #endregion
+
+        #region Q2
+
+        //public static int SumArray(int[] Arr)
+        //{
+        //    int Sum = 0;
+        //    Arr[0] = 100;
+        //    for (int i = 0; i < Arr.Length; i++)
+        //        Sum += Arr[i];
+        //    return Sum;
+        //}
+
+        //public static int SumArray(ref int[] Arr)
+        //{
+        //    int Sum = 0;
+        //    Arr[0] = 100;
+        //    for (int i = 0; i < Arr.Length; i++)
+        //        Sum += Arr[i];
+        //    return Sum;
+        //}
+
+        #endregion
+
+
+        #endregion
+
         static void Main(string[] args)
         {
 
@@ -254,7 +307,7 @@ namespace Assignment
 
             #endregion
 
-            #region Functions [Methods]
+            #region Functions
 
             #region Q1
 
@@ -264,21 +317,78 @@ namespace Assignment
             //-- You create a copy of instance  in a stack .
             //-- When you modify an instance, You modify the copy instance you created not the instance value itself .
 
+            //int x = 10, y = 20 ;
+            //Console.WriteLine("Before Modifying : ");
+
+            //Console.WriteLine($" x = {x} , y = {y}");
+
+            //swap(x, y);
+
+            //Console.WriteLine("After Modifying : ");
+            //Console.WriteLine($" x = {x} , y = {y}");
+
+
+
+
+
             //1) passing by Reference:
 
             //-- You don't create  a copy of instance  in a stack but, You refer to the same data itself.
             //-- When you modify an instance, You modify the instance value itself .
 
+            //int x = 10, y = 20;
+            //Console.WriteLine("Before Modifying : ");
+
+            //Console.WriteLine($" x = {x} , y = {y}");
+
+            //swap(ref x,ref y);
+
+            //Console.WriteLine("After Modifying : ");
+            //Console.WriteLine($" x = {x} , y = {y}");
+
+
+
+
+
+            #endregion
+
+            #region Q2
+
+            //  Reference Type
+
+            // 1) Passing By Value
+
+            // -- You create copy of the original data but , refer to the same location in the heap.
+            // -- Your modification will affect the same data .
+
+            //int[] numbers = { 1, 2, 3 };
+            //int result = SumArray(numbers);
+            //Console.WriteLine(result);
+            //Console.WriteLine(numbers[0]);
+
+
+            // 2) Passing by Reference 
+
+            // -- You don't create a copy , but refer to the same data itself in stack and same location in heap .
+            // -- You will affect the same data itself when modifying .
+
+
+
+            //int[] numbers = { 1, 2, 3 };
+            //int result = SumArray(ref numbers);
+            //Console.WriteLine(result);
+            //Console.WriteLine(numbers[0]);
+
+
+
             #endregion
 
 
 
 
-
-
             #endregion
 
-            
+
 
 
 
