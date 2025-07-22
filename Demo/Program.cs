@@ -12,8 +12,8 @@
         //1B) Object member methods (Non static methods)
 
         #region Methods
-        
-        
+
+
 
         //public static void PrintShape(string pattern,int count)
         // {
@@ -40,6 +40,24 @@
 
         //}
 
+        //public static int SumArray(int[] Arr)
+        //{
+        //    int Sum = 0;
+        //    Arr[0] = 100; 
+        //    for (int i = 0; i < Arr.Length; i++)
+        //        Sum += Arr[i];
+        //    return Sum;
+        //}
+
+
+        public static int SumArray(ref int[] Arr)
+        {
+            int Sum = 0;
+            Arr[0] = 100;
+            for (int i = 0; i < Arr.Length; i++)
+                Sum += Arr[i];
+            return Sum;
+        }
 
 
 
@@ -266,7 +284,28 @@
 
             #endregion
 
+            #region Function Parameters [reference Type]
 
+            #region Passing by Value
+
+            //int[] Numbers = { 1, 2, 3 };
+            //int result = SumArray(Numbers); //passing by value
+            //Console.WriteLine(result); //105
+            //Console.WriteLine(Numbers[0]); //100
+
+            #endregion
+
+            #region Passing by Reference
+            
+            //int[] Numbers = { 1, 2, 3 };
+            //int result = SumArray(ref Numbers); //passing by Reference
+            //Console.WriteLine(result); //105
+            //Console.WriteLine(Numbers[0]); //100
+
+            #endregion
+
+
+            #endregion
 
 
 
