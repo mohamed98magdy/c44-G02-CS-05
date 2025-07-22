@@ -170,16 +170,68 @@ namespace Assignment
 
 
             #region Q8
-           
+
             //Console.Write("Enter a sentence: ");
             //string? input = Console.ReadLine();
 
             //Console.WriteLine(string.Join(" ", input?.Split(' ').Reverse()));
-            
+
             #endregion
 
 
             #region Q9
+            //int rows, cols;
+
+            
+            //Console.Write("Enter number of rows: ");
+            //while (!int.TryParse(Console.ReadLine(), out rows) || rows <= 0)
+            //{
+            //    Console.Write("Enter a valid positive number for rows: ");
+            //}
+
+            //Console.Write("Enter number of columns: ");
+            //while (!int.TryParse(Console.ReadLine(), out cols) || cols <= 0)
+            //{
+            //    Console.Write("Enter a valid positive number for columns: ");
+            //}
+
+            //int[,] firstArray = new int[rows, cols];
+            //int[,] secondArray = new int[rows, cols];
+
+            
+            //Console.WriteLine("Enter values for the first array:");
+            //for (int i = 0; i < rows; i++)
+            //{
+            //    for (int j = 0; j < cols; j++)
+            //    {
+            //        Console.Write($"Element [{i+1},{j+1}]: ");
+            //        while (!int.TryParse(Console.ReadLine(), out firstArray[i, j]))
+            //        {
+            //            Console.Write("Invalid input. Enter an integer: ");
+            //        }
+            //    }
+            //}
+
+  
+            //for (int i = 0; i < rows; i++)
+            //{
+            //    for (int j = 0; j < cols; j++)
+            //    {
+            //        secondArray[i, j] = firstArray[i, j];
+            //    }
+            //}
+
+            
+            //Console.WriteLine("\nSecond array ");
+            //for (int i = 0; i < rows; i++)
+            //{
+            //    for (int j = 0; j < cols; j++)
+            //    {
+            //        Console.Write(secondArray[i, j] + "    ");
+            //    }
+            //    Console.WriteLine();
+            //}
+            //// rather than using a loop to copy the array, we can use Array.Copy method
 
             #endregion
 
