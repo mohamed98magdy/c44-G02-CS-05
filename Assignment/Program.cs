@@ -66,6 +66,22 @@ namespace Assignment
 
         #endregion
 
+        #region Q4
+
+       //public static int SumOfDigits(int number)
+       // {
+       //     int sum = 0;
+       //     while (number != 0)
+       //     {
+       //         sum += number % 10;   
+       //         number /= 10;         
+       //     }
+       //     return sum;
+       // }
+
+        #endregion
+
+
         #endregion
 
         static void Main(string[] args)
@@ -419,6 +435,19 @@ namespace Assignment
 
 
             #endregion
+
+            #region Q4  
+
+            //Console.Write("Enter a number: ");
+            //int num = int.Parse(Console.ReadLine());
+
+            //int result = SumOfDigits(num);
+
+            //Console.WriteLine($"The sum of the digits of the number {num} is: {result}");
+
+
+            #endregion
+
 
 
 
