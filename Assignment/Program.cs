@@ -56,6 +56,16 @@ namespace Assignment
         #endregion
 
 
+        #region Q3
+
+        //public static void Calculate(int a, int b, int c, int d, out int sum, out int sub)
+        //{
+        //    sum = a + b;
+        //    sub = c - d;
+        //}
+
+        #endregion
+
         #endregion
 
         static void Main(string[] args)
@@ -383,6 +393,32 @@ namespace Assignment
 
             #endregion
 
+
+            #region Q3
+
+            // I use parse instead of tryparse for simplicity checks, but I know I should use it for safety .  
+
+            //int sum, difference;
+
+            //Console.Write("Enter number a: ");
+            //int a = int.Parse(Console.ReadLine());
+
+            //Console.Write("Enter number b: ");
+            //int b = int.Parse(Console.ReadLine());
+
+            //Console.Write("Enter number c: ");
+            //int c = int.Parse(Console.ReadLine());
+
+            //Console.Write("Enter number d: ");
+            //int d = int.Parse(Console.ReadLine());
+
+            //Calculate(a, b, c, d, out  sum, out  difference);
+
+            //Console.WriteLine($"Sum of a + b = {sum}");
+            //Console.WriteLine($"Subtraction of c - d = {difference}");
+
+
+            #endregion
 
 
 
