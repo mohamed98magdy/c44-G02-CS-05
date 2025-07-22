@@ -68,19 +68,36 @@ namespace Assignment
 
         #region Q4
 
-       //public static int SumOfDigits(int number)
-       // {
-       //     int sum = 0;
-       //     while (number != 0)
-       //     {
-       //         sum += number % 10;   
-       //         number /= 10;         
-       //     }
-       //     return sum;
-       // }
+        //public static int SumOfDigits(int number)
+        // {
+        //     int sum = 0;
+        //     while (number != 0)
+        //     {
+        //         sum += number % 10;   
+        //         number /= 10;         
+        //     }
+        //     return sum;
+        // }
 
         #endregion
 
+        #region Q5
+
+       //public static bool IsPrime(int number)
+       // {
+       //     if (number <= 1)
+       //         return false;
+
+       //     for (int i = 2; i <= Math.Sqrt(number); i++)
+       //     {
+       //         if (number % i == 0)
+       //             return false;
+       //     }
+
+       //     return true;
+       // }
+
+        #endregion
 
         #endregion
 
@@ -448,6 +465,12 @@ namespace Assignment
 
             #endregion
 
+
+            #region Q5
+
+            //Console.WriteLine(IsPrime(7));
+
+            #endregion
 
 
 
